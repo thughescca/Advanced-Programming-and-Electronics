@@ -74,7 +74,7 @@ Finishing leaflet map.
 
 Week 4
 
-Finish interactive map!.
+Finish interactive map!
 
 REFERENCES
 
