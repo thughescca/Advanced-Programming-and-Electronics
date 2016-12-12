@@ -70,11 +70,11 @@ Learn Leaflet and begin creating map.
 
 Week 3
 
-Finish Leaflet map and start designing Website.
+Finishing leaflet map.
 
 Week 4
 
-Finish Website and fix any css issues.
+Finish interactive map!.
 
 REFERENCES
 
