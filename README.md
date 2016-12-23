@@ -85,3 +85,5 @@ http://leafletjs.com/examples/layers-control/
 http://leafletjs.com/examples/choropleth/
 http://leafletjs.com/examples/custom-icons/
 http://leafletjs.com/examples/quick-start/
+
+# Leaflet Map Project 3 (Interactive Map)
