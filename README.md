@@ -17,24 +17,43 @@ The third block is the Video Analysis block. It discovers the average direction 
 The initial problems I ran into were creating the mesh forms and getting the code blocks used in Rhino to read what I wanted using the webcam. However with the help of Jeff (Future Cities Lab and Recent mARCH grad) I was able to acquire more information about Grasshopper and how it works. Notes taken when talking with him: 
 
 Scroll click – menu
+
 Disable – to save space
+
 Hide – doesn’t show but still runs it
+
 Mesh measures difference in color with height 
+
 Video analysis*
+
 MD sliders 
+
 0,0 (1st one)
+
 1,1 (2nd one)
+
 //1 = size of webcam
+
 -z move + z vector w/ coordinates
+
 Mesh goes below dots
+
 Average Color connected to centroid of movement 
+
 --PT -- sphere //1 small sphere
+
 Tracks movement
+
 Right click > Floating viewport 
+
 Rhino viewport -> monitor project hide/ delete components
+
 Construct domain remaps the numbers coming in/out
+
 Changing the size of the elements depending on distance
+
 Debugging > unload grasshopper
+
 Swatch- for color change
 
 In conclusion, Grasshopper takes intense coding and mathematic algorithms and makes it into an easier visual interface that designers can use.
@@ -91,12 +110,19 @@ http://leafletjs.com/examples/quick-start/
 # Leaflet Map Project 3 (Interactive Map)
 
 Combining what I learned with embeding and what Kailen helped me with for starting the leaflet map I was able to start a base for my project to build on. The first step was getting the code from the website and setting a profile on the mapbox website. By making a profile on the website and signing up it allowed me access to the basis of the project which is the map that my information would lay over. Following that i had to set up my different filetypes, which mainly consisted of the icons, javascript code, css code, and the html file.
+
 After setting the other files up I had to turn all my images into SVG files or Scalable Vector Graphics. The file type is an XML-based vector image format for two-dimensional graphics with support for interactivity and animation. Now that I had all the pieces set up I just had to figure how to piece them together. Using the snippet of code that was provided for the marker I was able to figure out how to include my own icons. The code for the icons pulls imagess from files in the folder your using for the code overall, but you have to configure the file path. (I.E. : ./icons/Business.svg') As I was figuring this out I was having trouble creating multiple icons because I figured the file path was the only thing that had to be changed when in fact there is another part of the code that has to be changed when specifying the location of the icon as well. ( {icon: redIcon}).addTo(mymap); ) With the help from Micheal I was able to figure out a way to organize it so I wouldnt get too confused since I do have so many icons types and that was by changing the color before the "Icon." 
+
 To get the locations of the icons pin-pointed in the correct position i used google maps, however I realized that the map in google maps and mapbox are calibrated slightly different. This forced me to have to individually toggle the numbers and redo the longitude and latitude multiple times to get the icons to display in the correct place. Though the code in the js file is over 380+ lines long a decent portion of it is comments of the typologies and listing the same format but changing the line based on the location and icon type. 
+
 In the html code its mostly leaflet, jquery and slider scripts. Unfortunatley I was never able to get the slider to work on my map. I have the code in for the slider but when the slider is clicked and I try to use it, it fails to slide. As far as the css code goes, its pretty much just pertaining to the size of the map, in the future i plan on changing it back to 55% (so it becomes slimmer vertically) so I can add more details and information on the sides of the "website." Some notes I took down when Kailen helped me with Leaflet are:
 
 "/" are the equivalent to >...>...> (folder paths)
+
 scripts = java script files ljs (script src)
+
 href=links
+
 div id = only can be used for unique paths
+
 div class= generalize changes to multiple paths
