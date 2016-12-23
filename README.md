@@ -107,7 +107,7 @@ http://leafletjs.com/examples/quick-start/
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
-# Leaflet Map Project 3 (Interactive Map)
+# Advanced-Programming-and-Electronics Project 3 (Leaflet Map)
 
 Combining what I learned with embedding and what Kailen helped me with for starting the leaflet map I was able to start a base for my project to build on. The first step was getting the code from the website and setting a profile on the mapbox website. By making a profile on the website and signing up it allowed me access to the basis of the project which is the map that my information would lay over. Following that i had to set up my different file types, which mainly consisted of the icons, JavaScript code, css code, and the html file.
 
